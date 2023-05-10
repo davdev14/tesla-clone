@@ -19,17 +19,19 @@ export default component$(() => {
         <SectionHeading
           mainHeading= 'Experience Tesla'
           subHeading="Schedule a demo drive today"
-          
+          paddingTop="10rem"
         />
+        <div class='home-btn'>
         <Button
           background="transparent"
-          border="6px solid #fff"
+          border="10px solid #fff"
           borderRadius="10px"
           color="#fff"
           width="800px"
           btnTxt="Demo Drive"
-          marginTop="930px"
+          marginTop=""
         />
+        </div>
       </section>
       <section class='model3-section'>
       <SectionHeading
@@ -37,7 +39,9 @@ export default component$(() => {
           subHeading="view inventory"
           color="#000"
           textDecoration="underline"
+          paddingTop='4rem'
         />
+        <div class='model3-btn'>
         <Button
           background="#171a20cc"
           border="none"
@@ -45,7 +49,7 @@ export default component$(() => {
           color="#fff"
           width="800px"
           btnTxt="Order Now"
-          marginTop="900px"
+          marginTop="56.25rem"
         />
         <Button
           background="#f4f4f4a6"
@@ -54,8 +58,9 @@ export default component$(() => {
           color="#393c41"
           width="800px"
           btnTxt="Demo Drive"
-          marginTop='30px'
+          marginTop='1.875rem'
         />
+        </div>
       </section>
     </div>
   );

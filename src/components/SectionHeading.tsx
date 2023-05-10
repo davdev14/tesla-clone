@@ -6,14 +6,15 @@ interface SectionHeadingProps {
   subHeading: string;
   color?: string;
   textDecoration?: string;
+  paddingTop: string;
 }
 
 
 
-const SectionHeading = component$<SectionHeadingProps>(({mainHeading, subHeading, color, textDecoration}) => {
+const SectionHeading = component$<SectionHeadingProps>(({mainHeading, subHeading, color, textDecoration, paddingTop}) => {
   useStylesScoped$(styles)
   return (
-    <div class='container'>
+    <div class='container' style={{paddingTop}}>
       <h1 class='main-heading' style={{color}}>{mainHeading}
       </h1> 
     <a href="/" class='sub-heading' style={{color, textDecoration}}>{subHeading}</a>
