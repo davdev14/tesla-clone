@@ -8,9 +8,6 @@ import Navigation from "./navigation";
 const Navbar = component$(() => {
   useStylesScoped$(styles);
 
-  const store = useStore({
-    openNav: false
-  })
 
   // const store = useContent(navbarContext)
 
