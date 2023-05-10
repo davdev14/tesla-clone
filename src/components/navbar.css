@@ -1,0 +1,22 @@
+
+.container {
+  position: relative;
+  padding:  2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tesla-logo {
+  width: 25rem;
+  height: auto;
+}
+.menu-btn {
+  padding: 1rem 2.5rem;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 700;
+  border: #000;
+  border-radius: 10px;
+  background-color: #0000000d;
+  backdrop-filter: blur(10px);
+}
