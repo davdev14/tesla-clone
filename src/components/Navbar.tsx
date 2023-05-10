@@ -1,15 +1,14 @@
-import { component$, useStore, useStylesScoped$ } from "@builder.io/qwik";
+import { component$, useContext, useStylesScoped$ } from "@builder.io/qwik";
 import styles from "./navbar.css?inline";
 import TeslaLogo from "../../assets/images/tesla-logo.svg";
-import { useContent } from "@builder.io/qwik-city";
-import { navbarContext } from "~/context/appContext";
 import Navigation from "./navigation";
+import { navbarContext } from "~/context/appContext";
 
 const Navbar = component$(() => {
   useStylesScoped$(styles);
 
 
-  // const store = useContent(navbarContext)
+  const store = useContext(navbarContext)
 
   return (
     <div class="container">

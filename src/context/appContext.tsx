@@ -1,7 +1,7 @@
-import { createContext } from "vm"
+import { createContextId } from "@builder.io/qwik"
 
-interface navbarStore {
-  openNav: boolean
-}
+export interface NavbarContextData {
+  openNav: boolean;
+} 
 
-export const navbarContext = createContext<navbarStore>()
+export const navbarContext = createContextId<NavbarContextData>('navbar-context')
