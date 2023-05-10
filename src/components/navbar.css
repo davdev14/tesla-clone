@@ -1,10 +1,18 @@
 
 .container {
-  position: relative;
-  padding:  2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding:  2rem 0rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.container .img {
+  padding-left: 2rem;
+}
+.container .btn {
+  padding-right: 2rem;
 }
 .tesla-logo {
   width: 25rem;

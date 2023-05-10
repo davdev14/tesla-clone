@@ -28,6 +28,7 @@ html {
 }
 
 body {
+  font-size: 16px;
   padding: 0;
   margin: 0;
   line-height: inherit;
@@ -48,9 +49,11 @@ html {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 16px;
 }
 
 body {
+  font-size: 16px;
   padding: 0;
   line-height: inherit;
 }
