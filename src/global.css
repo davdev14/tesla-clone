@@ -1,4 +1,12 @@
 /**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
  * WHAT IS THIS FILE?
  *
  * Globally applied styles. No matter which components are in the page or matching route,
@@ -15,9 +23,11 @@
   --qwik-dark-background: #151934;
   --qwik-dark-text: #ffffff;
 }
+*{
+  font-size: 16px;
+}
 
 html {
-  font-size: 16px;
   line-height: 1;
   -webkit-text-size-adjust: 100%;
   -moz-tab-size: 4;
@@ -29,7 +39,6 @@ html {
 }
 
 body {
-  font-size: 16px;
   padding: 0;
   margin: 0;
   line-height: inherit;
@@ -54,7 +63,6 @@ html {
 }
 
 body {
-  font-size: 16px;
   padding: 0;
   line-height: inherit;
 }

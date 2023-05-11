@@ -18,6 +18,7 @@ const SectionHeading = component$<SectionHeadingProps>(({mainHeading, subHeading
       <h1 class='main-heading' style={{color}}>{mainHeading}
       </h1> 
     <a href="/" class='sub-heading' style={{color, textDecoration}}>{subHeading}</a>
+    <h2 class='text-lg bg-red-700'>text</h2>
     </div>
   )
 })
