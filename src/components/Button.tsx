@@ -17,6 +17,7 @@ const Button = component$<buttonData>(
     return (
       <div class='container'>
         <button
+          class='button'
           type="button"
           style={{
             background,

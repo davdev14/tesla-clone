@@ -16,14 +16,14 @@
   padding-right: 2rem;
 }
 .tesla-logo {
-  width: 25rem;
+  width: 20rem;
   height: auto;
 }
 .menu-btn {
-  padding: 1rem 2.5rem;
-  font-size: 3.5rem;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
   color: #000;
-  font-weight: 700;
+  font-weight: 500;
   border: #000;
   border-radius: 10px;
   background-color: #0000000d;

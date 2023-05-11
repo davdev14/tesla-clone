@@ -15,14 +15,35 @@ section {
   height: 100vh;
 }
 
-.model3-section {
+#model3 {
   position: relative;
   background-image: url('../../assets/images/Homepage-Model-3-LHD-Mobile.avif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
-.model3-section .model3-btn {
+#modely {
+  position: relative;
+  background-image: url('../../assets/images/Homepage-ModelY-LHD-Mobile.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#models {
+  position: relative;
+  background-image: url('../../assets/images/Model-S-homepage-mobile.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#modelx {
+  position: relative;
+  background-image: url('../../assets/images/Homepage-Model-X-Mobile-LHD_001.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.model-section .model-btn {
   position: absolute;
   bottom: 100px;
   left: 100px;
